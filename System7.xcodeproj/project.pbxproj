@@ -15,6 +15,8 @@
 		7E6CBAC12671B845007D1361 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6CBA9D2671B843007D1361 /* ContentView.swift */; };
 		7E6CBAC22671B845007D1361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6CBA9E2671B845007D1361 /* Assets.xcassets */; };
 		7E6CBAC32671B845007D1361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6CBA9E2671B845007D1361 /* Assets.xcassets */; };
+		7E6CBAD32671B87A007D1361 /* RetroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6CBAD22671B87A007D1361 /* RetroView.swift */; };
+		7E6CBAD42671B87A007D1361 /* RetroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6CBAD22671B87A007D1361 /* RetroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		7E6CBAB22671B845007D1361 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		7E6CBAB82671B845007D1361 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6CBABC2671B845007D1361 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		7E6CBAD22671B87A007D1361 /* RetroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroView.swift; sourceTree = "<group>"; };
+		7E9E714A2673B48A00DA4885 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		7E6CBA962671B843007D1361 = {
 			isa = PBXGroup;
 			children = (
+				7E9E714A2673B48A00DA4885 /* README.md */,
 				7E6CBA9B2671B843007D1361 /* Shared */,
 				7E6CBAB12671B845007D1361 /* Tests iOS */,
 				7E6CBABB2671B845007D1361 /* Tests macOS */,
@@ -93,6 +98,7 @@
 			children = (
 				7E6CBA9C2671B843007D1361 /* System7App.swift */,
 				7E6CBA9D2671B843007D1361 /* ContentView.swift */,
+				7E6CBAD22671B87A007D1361 /* RetroView.swift */,
 				7E6CBA9E2671B845007D1361 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -284,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E6CBAC02671B845007D1361 /* ContentView.swift in Sources */,
+				7E6CBAD32671B87A007D1361 /* RetroView.swift in Sources */,
 				7E6CBABE2671B845007D1361 /* System7App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E6CBAC12671B845007D1361 /* ContentView.swift in Sources */,
+				7E6CBAD42671B87A007D1361 /* RetroView.swift in Sources */,
 				7E6CBABF2671B845007D1361 /* System7App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,6 +457,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "System7--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = System7;
+				INFOPLIST_KEY_CFBundleName = System7;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -478,6 +490,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "System7--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = System7;
+				INFOPLIST_KEY_CFBundleName = System7;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -511,6 +527,10 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "System7--macOS--Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = System7;
+				INFOPLIST_KEY_CFBundleName = System7;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -538,6 +558,10 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "System7--macOS--Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = System7;
+				INFOPLIST_KEY_CFBundleName = System7;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
